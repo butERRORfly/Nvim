@@ -147,7 +147,7 @@ return {
             end,
             ["pyright"] = function()
                 lspconfig["pyright"].setup({})
-            end
+            end,
         })
     end,
 }
