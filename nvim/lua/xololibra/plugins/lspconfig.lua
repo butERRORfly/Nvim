@@ -148,6 +148,9 @@ return {
             ["pyright"] = function()
                 lspconfig["pyright"].setup({})
             end,
+            ["bash-language-server"] = function()
+                lspconfig["bash-language-server"].setup({})
+            end
         })
     end,
 }
